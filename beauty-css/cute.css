@@ -1,0 +1,31 @@
+/* first worke j */
+
+#feedback{
+    background-color: navy;
+    padding: 5% 7%;
+}
+.hr-style{
+    border: 5px dotted blue;
+    border-bottom: none;
+    width: 50px;
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    font: italic;
+}
+.feedback-img{
+    width: 250px;
+    height: auto;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+
+/* second part going */
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
