@@ -1,3 +1,8 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* first worke j */
 
 #feedback{
@@ -23,9 +28,29 @@
 }
 
 /* second part going */
+button{
+    background-color: tomato;
+    font-size: 22px;
+    font-weight: 700;
+    text-shadow: orangered;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 60px;
+    
+}
 
-.content{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+.blog-color{
+    background-color: hotpink;
+    border: 1px hotpink;
+}
+.end-blog{
+    background-color: rgb(201, 112, 201);
+    width: auto;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    text-align: center;
+    padding-top: 70px;
 }
